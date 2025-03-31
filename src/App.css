@@ -1,38 +1,84 @@
 .App {
-  text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.google-login {
+    width: 150px;
+    height: 150px;
+    max-width: 20px;
+    margin: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.account-heading {
+    font-size: 24px;
+    color: navy;
+    text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.account-card {
+    border: 1px solid black;
+    border-radius: 15px;
+    min-width: 250px;
+    max-width: 300px;
+    min-height: 220px;
+    max-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.account-details {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    margin: 0px;
+    padding: 0px;
+    line-height: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.account-image {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    align-self: center;
+}
+
+.account-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: navy;
+    align-self: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.account-email {
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+    color: navy;
+    line-height: 0;
+    text-align: center;
+    align-self: center;
+}
+
+.sign-out-button {
+    width: 90px;
+    height: 28px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: navy;
+    color: whitesmoke;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 15px;
+    align-self: center;
+    margin-top: auto;
+    margin-bottom: 10px;
 }
